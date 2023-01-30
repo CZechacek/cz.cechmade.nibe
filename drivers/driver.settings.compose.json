@@ -1,0 +1,29 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Status",
+      "no": "Status"
+    },
+    "children": [
+      {
+        "id": "connectionState",
+        "type": "label",
+        "label": { "en": "Connection state" },
+        "value": ""
+      },
+      {
+        "id": "currentFwVersion",
+        "type": "label",
+        "label": { "en": "Current firmware" },
+        "value": ""
+      },
+      {
+        "id": "securityLevel",
+        "type": "label",
+        "label": { "en": "Security level" },
+        "value": ""
+      }
+    ]
+  }
+]

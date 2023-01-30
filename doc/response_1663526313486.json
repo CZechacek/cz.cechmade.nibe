@@ -1,0 +1,255 @@
+[
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "4",
+    "parameterName": "Current outdoor temper­ature (BT1)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:07:46+00:00",
+    "value": 11.8,
+    "strVal": "11.8°C",
+    "smartHomeCategories": [
+      "sh-outdoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "8",
+    "parameterName": "Supply line (BT2)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:31:28+00:00",
+    "value": 23.2,
+    "strVal": "23.2°C",
+    "smartHomeCategories": [
+      "sh-supplyTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "10",
+    "parameterName": "Return line (BT3)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T10:18:14+00:00",
+    "value": 23.3,
+    "strVal": "23.3°C",
+    "smartHomeCategories": [
+      "sh-returnTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "11",
+    "parameterName": "Hot water top (BT7)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:25:49+00:00",
+    "value": 44,
+    "strVal": "44°C",
+    "smartHomeCategories": [
+      "sh-hwTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "12",
+    "parameterName": "Hot water char­ging (BT6)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:25:43+00:00",
+    "value": 39.3,
+    "strVal": "39.3°C",
+    "smartHomeCategories": [
+      "sh-hwTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "54",
+    "parameterName": "Average temper­ature (BT1)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T13:31:31+00:00",
+    "value": 12.8,
+    "strVal": "12.8°C",
+    "smartHomeCategories": [
+      "sh-outdoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "781",
+    "parameterName": "Degree minutes",
+    "parameterUnit": "DM",
+    "writable": true,
+    "timestamp": "2022-09-18T18:26:35+00:00",
+    "value": 60,
+    "strVal": "60DM",
+    "smartHomeCategories": [],
+    "minValue": -30000,
+    "maxValue": 30000,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "1708",
+    "parameterName": "Calcu­lated supply climate system 1",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T16:49:48+00:00",
+    "value": 23.3,
+    "strVal": "23.3°C",
+    "smartHomeCategories": [
+      "sh-supplyTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "Tepelné čerpadlo 1",
+    "parameterId": "2491",
+    "parameterName": "Return line (EB101-BT3)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:32:22+00:00",
+    "value": 41.7,
+    "strVal": "41.7°C",
+    "smartHomeCategories": [],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "Tepelné čerpadlo 1",
+    "parameterId": "2494",
+    "parameterName": "Supply line (EB101-BT12)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-18T18:33:20+00:00",
+    "value": 50.8,
+    "strVal": "50.8°C",
+    "smartHomeCategories": [],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "10733",
+    "parameterName": "Blokovat příd. zdroj tepla",
+    "parameterUnit": "",
+    "writable": false,
+    "timestamp": "2022-09-18T18:33:29+00:00",
+    "value": 0,
+    "strVal": "0",
+    "smartHomeCategories": [],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "10895",
+    "parameterName": "Pump: Heating medium (GP6)",
+    "parameterUnit": "",
+    "writable": false,
+    "timestamp": "2022-09-18T18:26:27+00:00",
+    "value": 1,
+    "strVal": "On",
+    "smartHomeCategories": [],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [
+      {
+        "value": "0",
+        "text": "Off",
+        "icon": ""
+      },
+      {
+        "value": "1",
+        "text": "On",
+        "icon": ""
+      }
+    ],
+    "scaleValue": "1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "48350",
+    "parameterName": "Teplota: Klimatizační systém 1",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-16T22:08:48+00:00",
+    "value": 23.2,
+    "strVal": "23.2°C",
+    "smartHomeCategories": [
+      "sh-indoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE VVM S320 R EM 3x400V",
+    "parameterId": "50660",
+    "parameterName": "Teplota: BT50",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-09-16T22:08:48+00:00",
+    "value": 23.2,
+    "strVal": "23.2°C",
+    "smartHomeCategories": [
+      "sh-indoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  }
+]

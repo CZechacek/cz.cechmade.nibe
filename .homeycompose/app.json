@@ -1,0 +1,29 @@
+{
+  "id": "cz.cechmade.nibe",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Nibe MyUplink"
+  },
+  "description": {
+    "en": "Add support for the Nibe S heat pumps."
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Vladimír Čech",
+    "email": "vladce@cechmade.cz"
+  },
+  "brandColor": "#a81524"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "heat-pump",
+  "name": {
+    "en": "Nibe S"
+  },
+  "class": "heater",
+  "capabilities": [
+    "measure_temperature.outdoor",
+    "measure_temperature.supply_line",
+    "measure_temperature.return_line",
+    "measure_temperature.hot_water_top",
+    "measure_temperature.hot_water_charging",
+    "measure_temperature.pump_return_line",
+    "measure_temperature.pump_supply_line",
+    "alarm_generic.system",
+    "measure_temperature.indoor",
+    "blocked.additional_heat_source"
+  ],
+  "capabilitiesOptions": {
+    "measure_temperature.outdoor": {
+      "title": {
+        "en": "Current outdoor temperature (BT1)"
+      }
+    },
+    "measure_temperature.supply_line": {
+      "title": {
+        "en": "Supply line (BT2)"
+      }
+    },
+    "measure_temperature.return_line": {
+      "title": {
+        "en": "Return line (BT3)"
+      }
+    },
+    "measure_temperature.hot_water_top": {
+      "title": {
+        "en": "Hot water top (BT7)"
+      }
+    },
+    "measure_temperature.hot_water_charging": {
+      "title": {
+        "en": "Hot water charging (BT6)"
+      }
+    },
+    "measure_temperature.pump_return_line": {
+      "title": {
+        "en": "Pump return line (EB101-BT3)"
+      }
+    },
+    "measure_temperature.pump_supply_line": {
+      "title": {
+        "en": "Pump supply line (EB101-BT12)"
+      }
+    },
+    "alarm_generic.system": {
+      "title": {
+        "en": "System alarm"
+      }
+    },
+    "measure_temperature.indoor": {
+      "title": {
+        "en": "Indoor temp (BT50)"
+      }
+    },
+    "blocked.additional_heat_source": {
+      "title": {
+        "en": "Blocked additional heat source"
+      },
+      "insights": true,
+      "insightsTitleTrue": {
+        "en": "Blocked additional heat source on"
+      },
+      "insightsTitleFalse": {
+        "en": "Blocked additional heat source off"
+      }
+    }
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "cloud"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "pair": [
+    {
+      "id": "login_oauth2",
+      "template": "login_oauth2"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ],
+  "repair": [
+    {
+      "id": "login_oauth2",
+      "template": "login_oauth2"
+    }
+  ]
+}

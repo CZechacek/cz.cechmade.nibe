@@ -1,0 +1,156 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "cz.cechmade.nibe",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Nibe MyUplink"
+  },
+  "description": {
+    "en": "Add support for the Nibe S heat pumps."
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Vladimír Čech",
+    "email": "vladce@cechmade.cz"
+  },
+  "brandColor": "#a81524",
+  "drivers": [
+    {
+      "id": "heat-pump",
+      "name": {
+        "en": "Nibe S"
+      },
+      "class": "heater",
+      "capabilities": [
+        "measure_temperature.outdoor",
+        "measure_temperature.supply_line",
+        "measure_temperature.return_line",
+        "measure_temperature.hot_water_top",
+        "measure_temperature.hot_water_charging",
+        "measure_temperature.pump_return_line",
+        "measure_temperature.pump_supply_line",
+        "alarm_generic.system",
+        "measure_temperature.indoor",
+        "blocked.additional_heat_source"
+      ],
+      "capabilitiesOptions": {
+        "measure_temperature.outdoor": {
+          "title": {
+            "en": "Current outdoor temperature (BT1)"
+          }
+        },
+        "measure_temperature.supply_line": {
+          "title": {
+            "en": "Supply line (BT2)"
+          }
+        },
+        "measure_temperature.return_line": {
+          "title": {
+            "en": "Return line (BT3)"
+          }
+        },
+        "measure_temperature.hot_water_top": {
+          "title": {
+            "en": "Hot water top (BT7)"
+          }
+        },
+        "measure_temperature.hot_water_charging": {
+          "title": {
+            "en": "Hot water charging (BT6)"
+          }
+        },
+        "measure_temperature.pump_return_line": {
+          "title": {
+            "en": "Pump return line (EB101-BT3)"
+          }
+        },
+        "measure_temperature.pump_supply_line": {
+          "title": {
+            "en": "Pump supply line (EB101-BT12)"
+          }
+        },
+        "alarm_generic.system": {
+          "title": {
+            "en": "System alarm"
+          }
+        },
+        "measure_temperature.indoor": {
+          "title": {
+            "en": "Indoor temp (BT50)"
+          }
+        },
+        "blocked.additional_heat_source": {
+          "title": {
+            "en": "Blocked additional heat source"
+          },
+          "insights": true,
+          "insightsTitleTrue": {
+            "en": "Blocked additional heat source on"
+          },
+          "insightsTitleFalse": {
+            "en": "Blocked additional heat source off"
+          }
+        }
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "images": {
+        "small": "/drivers/heat-pump/assets/images/small.png",
+        "large": "/drivers/heat-pump/assets/images/large.png",
+        "xlarge": "/drivers/heat-pump/assets/images/xlarge.png"
+      },
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "blocked": {
+      "type": "boolean",
+      "title": {
+        "en": "Blocked addition heat source"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/blocked.svg"
+    }
+  }
+}
