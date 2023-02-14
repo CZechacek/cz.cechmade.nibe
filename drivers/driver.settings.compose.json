@@ -2,8 +2,7 @@
   {
     "type": "group",
     "label": {
-      "en": "Status",
-      "no": "Status"
+      "en": "Status"
     },
     "children": [
       {

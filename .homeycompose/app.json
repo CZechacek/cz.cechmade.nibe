@@ -25,5 +25,29 @@
     "name": "Vladimír Čech",
     "email": "vladce@cechmade.cz"
   },
-  "brandColor": "#a81524"
+  "brandColor": "#a81524",
+  "contributors": {
+    "translators": [
+      {
+        "name": "Vladimír Čech"
+      }
+    ],
+    "developers": [
+      {
+        "name": "Vladimír Čech"
+      }
+    ]
+  },
+  "support": "mailto://vladce@cechmade.cz",
+  "source": "https://github.com/CZechacek/cz.cechmade.nibe",
+  "bugs": {
+    "url": "https://github.com/CZechacek/cz.cechmade.nibe/issues"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "vladce"
+      }
+    }
+  }
 }

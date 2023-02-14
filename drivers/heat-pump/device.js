@@ -2,7 +2,6 @@
 
 const { OAuth2Device } = require('homey-oauth2app');
 
-// "measure_temperature.indoor",
 // Mapping between settings and controller keys
 const pointsMap = new Map([
   [4, { capability: 'measure_temperature.outdoor', dataType: 'number' }],
